@@ -1,0 +1,29 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.header-logo {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    height: 80%;
+}
+
+.popover-trigger {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+}
+
+.popover-content {
+    background-color: #1b1b1b;
+    border: 1px solid #4b5563; 
+    color: #e5e7eb; 
+    width: 80%;
+    max-width: 400px;
+    padding: 16px;
+}
